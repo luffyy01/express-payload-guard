@@ -1,0 +1,33 @@
+{
+  "name": "express-payload-guard",
+  "version": "1.0.0",
+  "description": "Zero-dependency Express middleware and utility to sanitize request payloads against NoSQL injections, prototype pollution, XSS tags, and deeply nested objects.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "security",
+    "sanitize",
+    "nosql-injection",
+    "prototype-pollution",
+    "xss",
+    "payload-guard"
+  ],
+  "author": "luffyy01 <mitjain70@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luffyy01/express-payload-guard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luffyy01/express-payload-guard/issues"
+  },
+  "homepage": "https://github.com/luffyy01/express-payload-guard#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
